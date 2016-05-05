@@ -1,0 +1,55 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tic Tac Toe on the Ethereum Blockchain</title>
+  <link href="./app.css" rel='stylesheet' type='text/css'>
+  <script src="./app.js"></script>
+</head>
+<body>
+  <h1>Tic Tac Toe on the Ethereum Blockchain</h1>
+
+
+  <br>
+  <button id="send" onclick="setActivePlayer(1)">Play as Player 1</button>
+  <button id="send" onclick="setActivePlayer(2)">Play as Player 2</button>
+  <br>
+  Wir spielen als Spieler #:
+  <span id="playAs"></span>
+  <br>
+  <br><button id="send" onclick="newGame()">New Game</button><br>
+  <span> Tic Tac Toe Board</span></br>
+<div style="font-size: 24px; cursor:pointer;">
+  <div>
+    <span id="b0" style= "width : 40px; background-color: green"; onclick="move(0); ">_</span>
+    <span id="b1" style= "width : 40px; background-color: green"; onclick="move(1); ">_</span>
+    <span id="b2" style= "width : 40px; background-color: green"; onclick="move(2); ">_</span>
+  </div>
+  <div>
+    <span id="b3" style= "width : 40px; background-color: green"; onclick="move(3); ">_</span>
+    <span id="b4" style= "width : 40px; background-color: green"; onclick="move(4); ">_</span>
+    <span id="b5" style= "width : 40px; background-color: green"; onclick="move(5); ">_</span>
+  </div>
+  <div>
+    <span id="b6" style= "width : 40px; background-color: green"; onclick="move(6); ">_</span>
+    <span id="b7" style= "width : 40px; background-color: green"; onclick="move(7); ">_</span>
+    <span id="b8" style= "width : 40px; background-color: green"; onclick="move(8); ">_</span>
+  </div>
+</div>
+
+  <label for="a0">Account 0: </label><span id="a0"></span></br>
+  <label for="a1">Account 1: </label><span id="a1"></span></br>
+  <label for="actPlayer">ActivePlayer</label><span id="actPlayer"></span></br>
+  <!--
+  <label for="a2">Feld2: </label><span id="a2"></span></br>
+  <label for="a3">Feld3: </label><span id="a3"></span></br>
+  <label for="a4">Feld4: </label><span id="a4"></span></br>
+  <label for="a5">Feld5: </label><span id="a5"></span></br>
+  <label for="a6">Feld6: </label><span id="a6"></span></br>
+  <label for="a7">Feld7: </label><span id="a7"></span></br>
+  <label for="a8">Feld8: </label><span id="a8"></span></br>
+-->
+  </br>
+</body>
+</html>
