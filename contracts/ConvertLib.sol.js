@@ -8,7 +8,7 @@
     abi: [{"constant":false,"inputs":[{"name":"amount","type":"uint256"},{"name":"conversionRate","type":"uint256"}],"name":"convert","outputs":[{"name":"convertedAmount","type":"uint256"}],"type":"function"}],
     binary: "606060405260358060106000396000f36503001f9578ce50606060405260e060020a600035046396e4ee3d81146024575b6007565b602435600435026060908152602090f3",
     unlinked_binary: "606060405260358060106000396000f36503001f9578ce50606060405260e060020a600035046396e4ee3d81146024575b6007565b602435600435026060908152602090f3",
-    address: "0x37a3313d7b79a0011a02b31a5a302bc6aafe2a28",
+    address: "0x648b6a5d97dabbffa12ef705972065ad22ceb1d6",
     generated_with: "2.0.6",
     contract_name: "ConvertLib"
   };
